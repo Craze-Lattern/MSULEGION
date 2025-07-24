@@ -6,8 +6,8 @@ function getCurrentLanguage() {
     const region = getRegionByBrowserLanguage();
 
 
-    // default: EN
-    return localStorage.getItem('i18n') || region || 'EN';
+    // default: CN
+    return 'CN';
 }
 
 function getRegionByBrowserLanguage() {
